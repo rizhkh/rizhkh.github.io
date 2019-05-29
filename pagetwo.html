@@ -12,7 +12,7 @@
     @import url('https://fonts.googleapis.com/css?family=Abel');
 
     html, body {
-      background: #FCEEB5;
+      background: white;
       font-family: Abel, Arial, Verdana, sans-serif;
     }
 
@@ -27,6 +27,7 @@
       width: 450px;
       height: 350px;
       background-color: #fff;
+      text-align: center;
       background: linear-gradient(#f8f8f8, #fff);
       box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
       border-radius: 6px;
@@ -168,24 +169,7 @@
       font-size: 2.5rem;
     }
 
-    .card .general {
-      width: 300px;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 1;
-      box-sizing: border-box;
-      padding: 1rem;
-      padding-top: 0;
-    }
 
-    .card .general .more {
-      position: absolute;
-      bottom: 1rem;
-      right: 1rem;
-      font-size: 0.9em;
-    }
 
     .headingOne {
     font-family: 'Duru Sans', sans-serif;
@@ -197,8 +181,16 @@
       font-size: 0.5vw;
       color: black;
     }
+    .cenfg {
+      margin: auto;
+      width: 50%;
+      border: 0px solid white;
+      word-spacing: 10px;
+      display: inline-block;
+    }
 
 </style>
+
 
 
 <!DOCTYPE html>
@@ -213,85 +205,53 @@
   <div class="center">
 
     <div class="card">
-      <div class="additional">
-        <div class="user-card">
-          <img width="110" height="110"
-           viewBox="0 0 250 250" src="https://rizhk.net/a1a.png"
-           aria-labelledby="title desc" class="center">
-        </div>
-        <div class="more-info">
-          <h1>Rizwan Khan</h1>
-          <div class="coords">
-            <a href="https://rizhk.net/res1.pdf"  class="linkz" target="_blank" style="color:white;text-decoration:none">
-              <span><br>Check out my Resume  </span>
-            </a>
-          </div>
-          <br>
-          <div class="coords">
-
-            <a href="https://rizhk.net/res1.pdf"  class="linkz" target="_blank" style="color:white;text-decoration:none">
-              <span> Click here to check out some of the projects I worked on  </span>
-            </a>
-
-          </div>
-
-          <br>
-
-          <div class="coords">
-
-            <a href="https://rizhk.net/res1.pdf"  class="linkz" target="_blank" style="color:white;text-decoration:none">
-              <span> Click here to learn more about me  </span>
-            </a>
-
-          </div>
-
-          <div class="stats">
-
-            <div>
-              <a href="http://www.github.com/rizhkh" target="_blank">
-                    <img src="https://png.icons8.com/metro/1600/github.png"
-                    border="0" height="20" width="20" />
-                  </a>
-                  <div class="headtwo">Github</div>
-            </div>
-
-
-            <div>
-              <a class="active" href="https://www.instagram.com/rizhkhan/" target="_blank">
-                  <img src="https://png.icons8.com/windows/1600/instagram-new.png"
-
-                  border="0" height="20" width="20" />
-                </a>
-                <div class="headtwo">Instagram</div>
-            </div>
-
-            <div>
-              <a href="https://www.linkedin.com/in/rizhkh/" target="_blank">
-                <img src="https://png.icons8.com/windows/1600/linkedin.png"
-                border="0" height="20" width="20" />
-              </a>
-              <div class="headtwo">Linkedin</div>
-            </div>
 
 
 
-          </div>
-        </div>
-      </div>
       <div class="general">
 
         <p>
-          <h1 class="headingOne" style="text-align: left;" >Hello. 👋🏼 </h1>
+          <h1 class="headingOne" style="text-align: center;" >Hello. 👋🏼 </h1>
           My name is Rizwan and welcome to my website
           <br>
 I love building things, and I'm interested in Machine Learning.
 <br>
 
         </p>
-        <span class="more">Mouse over the card for more info</span>
-      </div>
-    </div>
 
+      <div class="cenfg">
+          <a href="http://www.github.com/rizhkh" target="_blank">
+Resume</a>
+          <a href="http://www.github.com/rizhkh" target="_blank">
+Project</a>
+          <a href="http://www.github.com/rizhkh" target="_blank">
+About</a>
+        </div>
+
+      </div>
+
+        </p>
+        <br><br><br><br>
+        <div class="cenfg">
+          <p>
+            <a href="http://www.github.com/rizhkh" target="_blank">
+                  <img src="https://png.icons8.com/metro/1600/github.png"
+                  border="0" height="20" width="20" ></a>
+            <a class="active" href="https://www.instagram.com/rizhkhan/" target="_blank">
+                <img src="https://png.icons8.com/windows/1600/instagram-new.png"
+                border="0" height="20" width="20" ></a>
+
+            <a href="https://www.linkedin.com/in/rizhkh/" target="_blank">
+              <img src="https://png.icons8.com/windows/1600/linkedin.png"
+              border="0" height="20" width="20" ></a>
+          </p>
+        </div>
+
+
+
+
+    </div>
+</div>
 
 
 </body>
