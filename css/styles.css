@@ -106,6 +106,10 @@ a.IP {
   margin-top: 130px;
 }
 
+.mainCV {
+  margin-top: 80px;
+}
+
 .mainCont {
   display: flex;
   justify-content: center;
@@ -246,6 +250,34 @@ a.IG {
 a:hover {
   opacity: 0.5;
   text-decoration: underline;
+}
+
+.topnavdetail {
+  text-align: left;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  width: 200px;
+  /* border: 3px solid green; */
+  margin: 5px;
+}
+
+.label.label-tab {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFE07A;
+}
+
+.label {
+  display: inline;
+  padding: 0.3em 0.6em 0.2em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: black;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
 }
 
 /*  $$$$$$$$   */
