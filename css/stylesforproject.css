@@ -199,6 +199,25 @@ a:hover {
   text-decoration: underline;
 }
 
+
+.headerFontPr {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.labelPr {
+  display: inline;
+  padding: 0.3em 0.6em 0.2em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: black;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
 /*  $$$$$$$$   */
 @media screen and (max-height: 450px) {
   .sidenav {
