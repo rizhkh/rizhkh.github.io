@@ -198,25 +198,55 @@ a:hover {
   opacity: 0.5;
   text-decoration: underline;
 }
+/*  $$$$$$$$   */
 
+.collapsible {
 
-.headerFontPr {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
 }
 
-.labelPr {
-  display: inline;
-  padding: 0.3em 0.6em 0.2em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  color: black;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: 0.25em;
+.active, .collapsible:hover {
+
 }
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+
+
+
+effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+
 
 /*  $$$$$$$$   */
 @media screen and (max-height: 450px) {
