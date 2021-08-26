@@ -198,6 +198,7 @@ a:hover {
   opacity: 0.5;
   text-decoration: underline;
 }
+
 /*  $$$$$$$$   */
 
 .collapsible {
@@ -246,6 +247,15 @@ a:hover {
 /* Define the hover highlight color for the table row */
 .hoverTable tr:hover {
 background-color: #EFF4FF;
+}
+
+linkProj {
+  color: black;
+}
+
+a.linkProj:hover {
+  opacity: 0.5;
+  text-decoration: none;
 }
 
 /*  $$$$$$$$   */
