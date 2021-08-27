@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
 
 .paragraphFont {
   font-family: 'Roboto', sans-serif;
@@ -256,6 +257,72 @@ linkProj {
 a.linkProj:hover {
   opacity: 0.5;
   text-decoration: none;
+}
+
+
+
+.label.label-AI {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #F36E6E;
+  background-color: #EFBEBE;
+  border: 0.8px solid #F36E6E;
+}
+
+.label.label-ML {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #40AF5D;
+  background-color: #B0E1BD;
+  border: 0.8px solid #40AF5D;
+}
+
+.label.label-Data {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #143D81;
+  background-color: #AEC0DD;
+  border: 0.8px solid #143D81;
+}
+
+.label.label-Search {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #AE6476;
+  background-color: #EEBAC7;
+  border: 0.8px solid #AE6476;
+}
+
+.label.label-App {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #5599CA;
+  background-color: #BADBF2;
+  border: 0.8px solid #5599CA;
+}
+
+.label.label-Code {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #30A05D;
+  background-color: #B2F0CB;
+  border: 0.8px solid #30A05D;
+}
+
+.label.label-Web {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #4F8D41;
+  background-color: #C5E3BE;
+  border: 0.8px solid #4F8D41;
+}
+
+.label.label-System {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  color: #78281F;
+  background-color: #EC7063;
+  border: 0.8px solid #78281F;
 }
 
 /*  $$$$$$$$   */
