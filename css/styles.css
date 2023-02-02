@@ -304,6 +304,11 @@ a:hover {
   border-radius: 0.25em;
 }
 
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
 /*  $$$$$$$$   */
 @media screen and (max-height: 450px) {
   .sidenav {
