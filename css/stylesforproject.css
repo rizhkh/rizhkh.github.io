@@ -149,10 +149,11 @@
 
 .blockPosSec {
   width: 300px;
-  text-align: center display: inline;
+  text-align: center;
+   display: inline;
   /* border: 3px solid blue; */
   padding: 5px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .iconBlock {
