@@ -158,7 +158,6 @@
 
 .iconBlock {
   align-items: center;
-  display: inline-block;
   float: right;
   /* border: 3px solid blue; */
 }
@@ -184,9 +183,6 @@ a:hover {
   outline: none;
 }
 
-.active, .collapsible:hover {
-
-}
 
 .content {
   padding: 0 18px;
