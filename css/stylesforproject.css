@@ -45,34 +45,6 @@
   background-color: #EAF6F6;
 }
 
-.label.label-python {
-  font-family: 'Roboto', sans-serif;
-  background-color: #FFE07A;
-}
-
-.label.label-java {
-  font-family: 'Roboto', sans-serif;
-  background-color: #4F5A5A;
-  color: white;
-}
-
-.label.label-js {
-  font-family: 'Roboto', sans-serif;
-  background-color: #6FBB4F;
-  color: white;
-}
-
-.label.label-c {
-  font-family: 'Roboto', sans-serif;
-  background-color: #E52F36;
-  color: white;
-}
-
-.label.label-gradle {
-  font-family: 'Roboto', sans-serif;
-  background-color: #02303A;
-  color: white;
-}
 
 .label.label-ml {
   font-family: 'Roboto', sans-serif;
@@ -259,70 +231,22 @@ a.linkProj:hover {
   text-decoration: none;
 }
 
-
-
-.label.label-AI {
+.label.label-proj-text {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #F36E6E;
-  background-color: #EFBEBE;
-  border: 0.8px solid #F36E6E;
-}
-
-.label.label-ML {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #40AF5D;
-  background-color: #B0E1BD;
-  border: 0.8px solid #40AF5D;
-}
-
-.label.label-Data {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #143D81;
-  background-color: #AEC0DD;
-  border: 0.8px solid #143D81;
-}
-
-.label.label-Search {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #AE6476;
-  background-color: #EEBAC7;
-  border: 0.8px solid #AE6476;
 }
 
 .label.label-App {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
   color: #5599CA;
-  background-color: #BADBF2;
   border: 0.8px solid #5599CA;
-}
-
-.label.label-Code {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #30A05D;
-  background-color: #B2F0CB;
-  border: 0.8px solid #30A05D;
-}
-
-.label.label-Web {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #4F8D41;
-  background-color: #C5E3BE;
-  border: 0.8px solid #4F8D41;
 }
 
 .label.label-System {
   font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  color: #78281F;
-  background-color: #EC7063;
-  border: 0.8px solid #78281F;
+
+  color: #7e909d;
+  background-color: #e7ecf0;
+  border: 0.8px solid #95ABBB;
 }
 
 /*  $$$$$$$$   */
@@ -336,4 +260,18 @@ a.linkProj:hover {
   .topnavlink {
     padding-top: 15px;
   }
+}
+
+
+.project_tab_desc {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+
+}
+
+.label.label-link {
+  font-family: 'Lato', sans-serif;
+  color: #5599CA;
+  border: 0.8px solid #e2c257;
+  background-color: #FFE07A;
 }
