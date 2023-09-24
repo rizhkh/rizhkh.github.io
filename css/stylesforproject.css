@@ -18,11 +18,11 @@
 }
 
 .tabContent {
-  /* border-bottom: 1px solid #ddd; */
-  width: 100%;
-} 
+  border-bottom: 1px solid #ddd;
+  width: 100%
+}
 
-.labelProject {
+.label {
   display: inline;
   padding: 0.3em 0.6em 0.2em;
   font-size: 75%;
@@ -35,23 +35,23 @@
   border-radius: 0.25em;
 }
 
-.labelProject.label-link {
+.label.label-link {
   font-family: 'Roboto', sans-serif;
   background-color: #F1F3F4;
 }
 
-.labelProject.label-default {
+.label.label-default {
   font-family: 'Roboto', sans-serif;
   background-color: #EAF6F6;
 }
 
 
-.labelProject.label-ml {
+.label.label-ml {
   font-family: 'Roboto', sans-serif;
   background-color: #EAF6F6;
 }
 
-.labelProject.label-tab {
+.label.label-tab {
   font-family: 'Roboto', sans-serif;
   background-color: #FFE07A;
 }
@@ -80,7 +80,9 @@
   bottom: 0;
   font-family: 'Pontano Sans', sans-serif;
   font-size: 16px;
+  /* width: 400px; */
   width: 70%;
+  /* border: 3px solid green; */
   margin: 5px;
   padding-right: 10px;
 }
@@ -96,6 +98,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   width: 200px;
+  /* border: 3px solid green; */
   margin: 5px;
 }
 
@@ -123,6 +126,7 @@
   right: 50%;
   width: 80%;
   padding: 30px;
+  /* border: 3px solid green; */
 }
 
 .blockPos {
@@ -130,10 +134,12 @@
   letter-spacing: .03em;
   line-height: 1.8em;
   display: block;
+  /* border: 3px solid blue; */
   padding: 5px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  /* margin:0 auto; */
 }
 
 .blockPosFont {
@@ -145,6 +151,7 @@
   width: 300px;
   text-align: center;
    display: inline;
+  /* border: 3px solid blue; */
   padding: 5px;
   margin: auto;
 }
@@ -152,6 +159,7 @@
 .iconBlock {
   align-items: center;
   float: right;
+  /* border: 3px solid blue; */
 }
 
 .headerFont {
@@ -220,17 +228,17 @@ a.linkProj:hover {
   text-decoration: none;
 }
 
-.labelProject.label-proj-text {
+.label.label-proj-text {
   font-family: 'Lato', sans-serif;
 }
 
-.labelProject.label-App {
+.label.label-App {
   font-family: 'Lato', sans-serif;
   color: #5599CA;
   border: 0.8px solid #5599CA;
 }
 
-.labelProject.label-System {
+.label.label-System {
   font-family: 'Lato', sans-serif;
 
   color: #7e909d;
@@ -258,7 +266,7 @@ a.linkProj:hover {
 
 }
 
-.labelProject.label-link {
+.label.label-link {
   font-family: 'Lato', sans-serif;
   color: #5599CA;
   border: 0.8px solid #e2c257;

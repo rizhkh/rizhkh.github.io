@@ -12,8 +12,13 @@
 .label {
   display: inline;
   padding: 0.3em 0.6em 0.2em;
-  margin: 4px;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
   color: white;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
   border-radius: 0.25em;
 }
 
@@ -86,17 +91,26 @@ a.IP {
   margin: 0 auto;
 }
 
+.linkz {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  top: -10%;
+  right: 10px;
+  margin: 40px 0 0;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.main {
+  margin-top: 130px;
+}
+
 .mainCV {
   margin-top: 80px;
 }
 
 .mainCont {
-  
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +250,7 @@ a.IP {
 a.SB {
   /* color: orange ; */
   font-family: 'Cuprum', sans-serif;
-  text-decoration: none;
+  text-decoration: none
 }
 
 a.TR {
@@ -311,6 +325,8 @@ a:hover {
 
 .project_tab_desc {
   overflow: scroll;
+  height: 150px; 
+  text-align: center; 
   width: 20%; 
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-radius: 5px;
@@ -452,10 +468,4 @@ a:hover {
 
 linkProj {
   color: black;
-}
-
-tr.tr-hover-class:hover {
-  background: #e7ecf6 !important;
-  cursor: pointer;
-
 }
