@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rizhkh.github.io/static/css/main.0502ad26.css",
+    "main.js": "/rizhkh.github.io/static/js/main.cc2c9d2e.js",
+    "static/js/787.8a128c11.chunk.js": "/rizhkh.github.io/static/js/787.8a128c11.chunk.js",
+    "static/media/instagram.png": "/rizhkh.github.io/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/git.png": "/rizhkh.github.io/static/media/git.88b0a55c7b6e4661a222.png",
+    "index.html": "/rizhkh.github.io/index.html",
+    "main.0502ad26.css.map": "/rizhkh.github.io/static/css/main.0502ad26.css.map",
+    "main.cc2c9d2e.js.map": "/rizhkh.github.io/static/js/main.cc2c9d2e.js.map",
+    "787.8a128c11.chunk.js.map": "/rizhkh.github.io/static/js/787.8a128c11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0502ad26.css",
+    "static/js/main.cc2c9d2e.js"
+  ]
+}
